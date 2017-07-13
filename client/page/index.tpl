@@ -2,6 +2,6 @@
 
 {% block content %}
      <div id="pages-container">
-        {% widget "nicemoods_index:widget/message/message.tpl"%}
+        <h1>aviciiTian is a bitch.</h1>
      </div>
 {% endblock %}
