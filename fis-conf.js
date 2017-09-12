@@ -6,10 +6,6 @@
 fis.config.set('namespace', 'nicemoods_index');
 fis.set('project.fileType.text', 'vue');
 
-// chrome下可以安装插件实现livereload功能
-// https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
-fis.config.set('livereload.port', 35729);
-
 fis.match('*.{css,png}', {
     useHash: true
 });
